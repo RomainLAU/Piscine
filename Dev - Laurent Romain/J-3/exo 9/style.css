@@ -1,0 +1,27 @@
+body{
+    content : url("https://cache.cosmopolitan.fr/data/photo/w600_h315_ci/1ec/dursley-theory.jpg");
+}
+
+@media (max-width: 1800px) {
+    body{
+      content : url("https://static.wikia.nocookie.net/harrypotter/images/b/b8/PromoHP5_Dolores_Ombrage.jpg/revision/latest/top-crop/width/360/height/450?cb=20090601142400&path-prefix=fr");
+    }
+}
+
+@media (max-width: 1300px) {
+    body{
+      content : url("https://static.wikia.nocookie.net/harrypotter/images/9/93/PromoHP7_Bellatrix_Lestrange.jpg/revision/latest?cb=20141115084707&path-prefix=fr");
+    }
+}
+
+@media (max-width: 800px) {
+    body{
+      content : url("https://static.wikia.nocookie.net/harrypotter/images/d/dd/Nagini.png/revision/latest/scale-to-width-down/2000?cb=20170501224811&path-prefix=fr");
+    }
+}
+
+@media (max-width: 300px) {
+    body{
+      content : url("https://media.melty.fr/article-4224114-facebook-f12/media.jpg");
+    }
+}

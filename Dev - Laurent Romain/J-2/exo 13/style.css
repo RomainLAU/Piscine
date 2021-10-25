@@ -1,0 +1,39 @@
+@font-face {
+  font-family : "HarryPotter";
+  src : url('fonts/HARRYP__.TTF') format("truetype");
+}
+
+p{
+  width : 170px;
+  height : 170px;
+  border-radius : 50%;
+  text-align : center;
+  vertical-align : middle;
+  font-family : HarryPotter;
+  display : table-cell;
+  font-size : 50px;
+}
+
+.gryffondor{
+  background-color: yellow;
+  color : red;
+  border : 6px solid red;
+}
+
+.serpentard{
+  background-color: green;
+  color : grey;
+  border : 6px solid grey;
+}
+
+.poufsouffle{
+  background-color: darkblue;
+  color : goldenrod;
+  border : 6px solid goldenrod;
+}
+
+.serdaigle{
+  background-color: wheat;
+  color : grey;
+  border : 6px solid grey;
+}

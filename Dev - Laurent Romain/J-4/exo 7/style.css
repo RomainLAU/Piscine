@@ -1,0 +1,28 @@
+img{
+    max-width: 20%;
+    min-width: 2%;
+    height: auto;
+    width: 20%;
+    min-height: auto;
+    max-height: auto;
+    animation-duration: 1s;
+    animation-name: vol;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+}
+
+@keyframes vol {
+    from{
+        margin-left : 2%;
+    }
+    50%{
+        margin-left : 80%;
+    }
+    to{
+        margin-left : 2%;
+    }
+}
+
+img:hover{
+    animation-play-state: paused;
+}

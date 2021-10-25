@@ -1,0 +1,29 @@
+h1, p{
+    text-align: center;
+}
+
+table{
+    border-width:5px; 
+    border-style:solid; 
+    border-color:black;
+    background-color:tan;
+    border-collapse: collapse;
+}
+
+.tr1{
+    border-bottom-color: tan;
+}
+
+.tr2{
+    background-image:url(https://static.wikia.nocookie.net/harrypotter/images/5/5d/PromoHP6_Fenrir_Greyback.jpg/revision/latest?cb=20090821070417&path-prefix=fr);
+    background-repeat: no-repeat;
+    border-bottom-color: tan;
+}
+
+.tr3 p{
+    background-color:black;
+    color : white;
+    border-top-color: tan;
+    border-right : solid black 2px;
+    border-left : solid black 2px;
+}

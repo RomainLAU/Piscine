@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+#relique {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid white;
+}
+
+.cercle {
+    margin-left: -82px;
+    margin-top: 39px;
+    width: 54px;
+    height: 54px;
+    border-radius: 100%;
+    background: white;
+    border: 5px solid black;
+}
+
+.baton {
+    width: 6px ;
+    margin-left: -35.2px;
+    height: 100px;
+    transform: rotate(0deg);
+    background: black;
+}

@@ -1,0 +1,82 @@
+body{
+background-color: rgb(181, 235, 33);
+display: flex;
+height: 100vh;
+margin: 0;
+justify-content: center;
+align-items: center;
+
+
+
+}
+.carrén{
+background-color: rgb(3, 3, 3);
+height: 80vh;
+width:55vh;
+display: flex;
+justify-content: center;
+border-radius: 50px;
+
+
+
+
+
+}
+.carrén:after {
+    content: '';
+    position: absolute;
+    background-color: grey;
+    height: 60vh;
+    width:2vh;
+  
+    border-radius: 50px;
+    top: 100px;
+    left: 550px;
+    
+
+}
+
+.carréb{
+background-color: rgb(231, 230, 236);
+background: linear-gradient(180deg, rgb(245, 241, 241)0% 10%, rgb(7, 7, 7)10% 11%, rgb(247, 244, 244)11% 21%, rgb(7, 7, 7)21% 22%, rgb(247, 244, 244)22% 32%, rgb(7, 7, 7)32% 33%, rgb(247, 244, 244)33% 43%, rgb(7, 7, 7)43% 44%, rgb(247, 244, 244)44% 54%, rgb(7, 7, 7)54% 55%, rgb(247, 244, 244)55% 65%, rgb(7, 7, 7)65% 66%, rgb(247, 244, 244)66% 76%, rgb(7, 7, 7)76% 77%, rgb(247, 244, 244)78% 88%, rgb(7, 7, 7)88% 89%, rgb(247, 244, 244)89% 99%, rgb(7, 7, 7)99% 100%);
+  
+    height:80px;
+    width: 1300px;
+    border-radius: 30px;
+    margin-top: 550px;
+    margin-left: 90px;
+    margin-right: 300pv;
+  
+    
+}
+.carréb::after{
+    content: '';
+    position: absolute;
+    background-color: rgb(175, 33, 33);
+    height: 20vh;
+    width:4vh;
+    top: 658px;
+    left:850px ;
+    clip-path: polygon(76% 0, 78% 54%,94% 100%,54% 59%, 9% 100%, 28% 57%,28% 0);
+  
+  
+    
+   
+    
+
+}
+
+
+
+
+
+.carréfluo{
+    background-color: rgb(181, 235, 33);
+    height:80px;
+    width: 90px;
+    border-radius: 25px;
+    margin-left: 385px;
+   
+
+}
+

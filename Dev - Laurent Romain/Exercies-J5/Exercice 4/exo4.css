@@ -1,0 +1,42 @@
+
+body{
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+
+}
+
+
+.baton{
+	width:500px;
+	height: 30px;
+  background: #01080F;
+   border-radius: 20px;
+   transform: rotate(315deg);
+   margin: 0%;
+   position: absolute;
+
+}
+
+img{
+
+    width: 150px;
+    height: 150px;
+    font-size: 10em;
+    margin-bottom: 300px;
+    margin-left: -3px;
+    transform: rotate(325deg);
+    margin-top: -100px;
+    margin-left: 350px;
+    z-index: 1;
+    
+
+}
+
+
+
+
+
+

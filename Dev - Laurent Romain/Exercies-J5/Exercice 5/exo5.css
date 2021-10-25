@@ -1,0 +1,258 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.p {
+    display:flex;
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+#p-gauche {
+    width: 50px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+}
+
+#p-droit {
+    width: 50px;
+    height: 100px;
+    background-color: black;
+    margin-left: 100px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+#p-bas {
+    width: 125px;
+    height: 50px;
+    background-color: black;
+    margin-top: 100px;
+    position: absolute;
+}
+
+#p-haut {
+    width: 125px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+}
+
+#p-corner-haut {
+    width: 35px;
+    height: 35px;
+    transform: rotate(-45deg);
+    margin-left: 107px;
+    margin-top: 8px;
+    background-color: black;
+    position: absolute;
+}
+
+#p-corner-bas {
+    width: 35px;
+    height: 35px;
+    transform: rotate(-135deg);
+    margin-left: 108px;
+    margin-top: 108px;
+    background-color: black;
+    position: absolute;
+}
+
+
+.o {
+    display:flex;
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+
+#o-gauche {
+    width: 50px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+}
+
+#o-droit {
+    width: 50px;
+    height: 200px;
+    background-color: black;
+    margin-left: 100px;
+    position: absolute;
+}
+
+#o-bas {
+    width: 125px;
+    height: 50px;
+    background-color: black;
+    margin-top: 150px;
+    position: absolute;
+}
+
+#o-haut {
+    width: 125px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+}
+
+
+.t {
+    display:flex;
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+#t-haut {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+}
+
+#t-milieu {
+    width: 50px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    margin-left: 50px;
+}
+
+
+.e {
+    display:flex;
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+#e-gauche {
+    width: 50px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+}
+#e-milieu {
+    width: 125px;
+    height: 40px;
+    background-color: black;
+    margin-top: 80px;
+    position: absolute;
+}
+#e-bas {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    margin-top: 150px;
+    position: absolute;
+}
+
+#e-haut {
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+}
+
+
+
+.r {
+    display:flex;
+    width: 150px;
+    height: 200px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+#R-gauche {
+    width: 50px;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+}
+
+#R-droit {
+    width: 50px;
+    height: 100px;
+    background-color: black;
+    margin-left: 100px;
+    margin-top: 25px;
+    position: absolute;
+}
+
+#R-bas {
+    width: 125px;
+    height: 50px;
+    background-color: black;
+    margin-top: 100px;
+    position: absolute;
+}
+
+#R-haut {
+    width: 125px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+}
+
+#r-corner-haut {
+    width: 35px;
+    height: 35px;
+    transform: rotate(-45deg);
+    margin-left: 107px;
+    margin-top: 8px;
+    background-color: black;
+    position: absolute;
+}
+
+#r-corner-bas {
+    width: 35px;
+    height: 35px;
+    transform: rotate(-135deg);
+    margin-left: 108px;
+    margin-top: 108px;
+    background-color: black;
+    position: absolute;
+}
+
+#r-corner-droit {
+    width: 35px;
+    height: 35px;
+    transform: rotate(-45deg);
+    margin-left: 107px;
+    margin-top: 157px;
+    background-color: black;
+    position: absolute;
+}
+
+#r-corner-gauche {
+    width: 35px;
+    height: 35px;
+    transform: rotate(-45deg);
+    margin-left: 82px;
+    margin-top: 132px;
+    background-color: black;
+    position: absolute;
+}
+
+#r-bas {
+    width: 50px;
+    height: 25px;
+    background-color: black;
+    margin-top: 175px;
+    margin-left: 100px;
+    position: absolute;
+}

@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+body{
+    background: white;
+}
+
+.triangle {
+    rotate: 180deg;
+    width:300px; height:100px;  
+    border:solid 8px #000;
+    border-color:#000 transparent transparent transparent;
+    border-radius: 60%/130px 130px 0 0;
+    margin-right: -70px;
+    position: fixed;
+    margin: -30px;
+}
+
+  .barre {
+    width:300px;
+     height:100px;  
+    border:solid 8px #000;
+    border-color:#000 transparent transparent transparent;
+    border-radius: 60%/130px 130px 0 0;
+    margin-right:60px ;
+    margin-top: 9px;    
+}
+
+
+.cercle {
+    margin-left: -30px;
+    margin-top: -11px;
+    width: 55px;
+    height: 55px;
+    border-radius: 100%;
+    background: rgb(7, 7, 7);
+    border: 10px solid black;
+    position: fixed;
+}
+
+.baton {
+    width: 20px ;
+    margin-left: -30.2px;
+    margin-top: -10px;
+    height: 20px;
+    transform: rotate(0deg);
+    background: rgb(252, 248, 248);
+    border-radius: 50px;
+    position: fixed;
+}

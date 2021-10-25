@@ -1,0 +1,13 @@
+body::before{
+  content : "RIEN À VOIR PAR ICI !";
+  display : flex;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+}
+
+@media (max-width: 666px) {
+    body::before{
+      content :  "J'adore Severus Rogue hihi";
+    }
+}

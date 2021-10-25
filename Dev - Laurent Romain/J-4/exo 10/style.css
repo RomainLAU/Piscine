@@ -1,0 +1,98 @@
+body{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100vh;
+    margin : 0;
+    background-color: black;
+}
+
+.anim{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.xp1, .xp2, .xp3{
+    width: 20px;
+    height: 20px;
+    background-color: gold;
+    border : solid 4px gold;
+    border-radius : 50%;
+    margin: 15px;
+}
+
+.xp{
+    margin-top : 20px;
+    animation : xp 0.5s infinite linear;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.xp1{
+    animation : xp1 0.5s infinite linear;
+}
+
+.xp3{
+    animation : xp1 0.5s infinite linear reverse;
+}
+
+@keyframes xp1{
+    from{
+        opacity : 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+@keyframes xp{
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-90px);
+    }
+}
+
+.pacman{
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
+    background: gold;
+    position: relative;
+    margin-top: 20px;
+    overflow: hidden;
+  }
+  
+.mouth{
+    background: #000;
+    position: absolute;
+    width: 102%;
+    height: 102%;
+    clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+    animation: eat 0.5s infinite linear;
+    border : none;
+}
+  
+@keyframes eat{
+    0% {
+      clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+    }
+    25% {
+      clip-path: polygon(0% 50%, 100% 25%, 100% 75%);
+    }
+    50% {
+      clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+    }
+    75% {
+     clip-path: polygon(0% 50%, 100% 25%, 100% 75%);
+    }
+    102% {
+     clip-path: polygon(0% 50%, 100% 0%, 100% 100%);
+    }
+  }

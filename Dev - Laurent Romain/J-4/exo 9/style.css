@@ -1,0 +1,33 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+div{
+  width: 200px;
+  height: 200px;
+  border: solid 8px red;
+  animation: rotate 2s infinite linear;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  animation: rotate 2s infinite linear reverse;
+}
+
+@keyframes rotate{
+    from {
+      transform: rotate(0deg);
+    }  
+    to {
+      transform: rotate(360deg);
+    }
+}

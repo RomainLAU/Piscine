@@ -1,0 +1,27 @@
+body::before{
+  content : "Have you seen this wizard ?"
+  url(https://www.encyclopedie-hp.org/wp-content/uploads/sites/4/2014/07/lucius_azkaban1.jpg);
+  font-size : 30px;
+  text-align: center;
+  font-weight : bold;
+  display : flex;
+  background-color : tan;
+  border : solid 4px black;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  padding-bottom : 15px;
+}
+
+body::after{
+  content : "APPROACH WITH EXTREME CAUTION. DO NOT ATTEMPT TO USE MAGIC AGAINST THIS WIZARD !";
+  background-color : black;
+  color : white;
+  border : solid 4px black;
+  text-align: center;
+  width: 300px;
+  display : flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 25px 0px -5px tan, 5px 28px 0px -5px black, -5px 28px 0px -5px black;
+}

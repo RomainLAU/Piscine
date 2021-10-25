@@ -1,0 +1,8 @@
+.linear-gradient {
+    background: linear-gradient(to bottom right, red, orange, yellow, green, turquoise, blue, purple, pink);
+  }
+  
+div {
+    width: 1440px;
+    height: 720px;
+}

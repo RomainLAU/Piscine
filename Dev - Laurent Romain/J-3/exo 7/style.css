@@ -1,0 +1,13 @@
+body{
+    display:flex;
+    flex-direction: row;
+    column-gap : 40px;
+}
+
+.premier{
+    flex-grow : 1;
+}
+
+.deuxieme{
+    flex-grow : 2;
+}

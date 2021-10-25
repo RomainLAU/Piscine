@@ -1,0 +1,13 @@
+#circle{
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 98vh;
+}

@@ -1,0 +1,86 @@
+body{
+    background-color: black;
+    color : white;
+    height: 100vh;
+    margin : O;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ball-1{
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 200px;
+}
+
+.ball-2{
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 200px;
+}
+
+.ball-3{
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 200px;
+}
+
+.ball-4{
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 200px;
+}
+
+.ball-container{
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  animation: spin 2s linear infinite;
+}
+
+.animate-1{
+  animation: spin 2s linear infinite;
+}
+
+.animate-2{
+  animation: spin 2.25s linear infinite;
+}
+
+.animate-3{
+  animation: spin 2.5s linear infinite;
+}
+
+.animate-4{
+  animation: spin 2.75s linear infinite;
+}
+
+@keyframes spin {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  } 
+}

@@ -1,0 +1,18 @@
+img{
+    width: 200px;
+    animation-duration: 1s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 0px;
+      transform: rotate(0deg);
+    }  
+    to {
+      margin-left: 200px;
+      transform: rotate(360deg);
+    }
+  }

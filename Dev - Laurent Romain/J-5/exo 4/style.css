@@ -1,0 +1,51 @@
+body{
+    height: 100vh;
+    margin: 0;
+}
+
+.plume{
+    transform: rotateZ(-90deg);
+    margin-left : 500px;
+    margin-top: 500px;
+}
+
+.plume:target{
+    animation: fly 4s 1 linear 3s forwards;
+}
+
+@keyframes fly {
+    from{
+        margin-top : 500px;
+    }
+    to{
+        margin-top :400px;
+    }
+}
+
+@keyframes moving {
+    from{
+        margin-left: 2%;
+        transform: rotateZ(-70deg);
+        margin-top: 20%;
+    }
+    25%{
+        margin-left: 48%;
+        transform: rotateZ(-90deg);
+        margin-top: 15%;
+    }
+    50%{
+        margin-left: 86%;
+        transform: rotateZ(-70deg);
+        margin-top: 3%;
+    }
+    75%{
+        margin-left: 17%;
+        transform: rotateZ(-90deg);
+        margin-top: 20%;
+    }
+    to{
+        margin-left: 67%;
+        transform: rotateZ(-80deg);
+        margin-top: 10%;
+    }
+}

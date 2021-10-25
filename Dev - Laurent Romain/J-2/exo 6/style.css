@@ -1,0 +1,6 @@
+table{
+    color: red;
+    border-top: 2px solid green;
+    border-right: 2px dashed orange;
+    border-bottom: 2px dotted purple;
+}

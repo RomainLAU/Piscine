@@ -1,0 +1,43 @@
+.cadre{
+    background-color : rgb(172, 172, 172);
+    border : solid 4px darkred;
+    width: 800px;
+    height: 30px;
+    overflow : hidden;
+}
+
+.barre{
+    width: 800px;
+    height: 30px;
+    background-color: red;
+    border : solid 1px red;
+    animation-duration: 5s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+h1{
+    overflow:visible;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color : red;
+}
+
+  @keyframes slidein {
+    0% {
+      width: 0%;
+    }  
+    100% {
+      width: 100%;
+    }
+  }

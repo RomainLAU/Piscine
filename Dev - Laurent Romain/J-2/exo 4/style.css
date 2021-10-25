@@ -1,0 +1,7 @@
+img{
+    width: 400px;
+    height: 260px;
+    text-align : center;
+    margin : auto;
+    display: flex;
+}

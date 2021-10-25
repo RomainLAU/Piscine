@@ -1,0 +1,81 @@
+body{
+    display : flex;
+    height: 100vh;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+div {   
+	width: 10px;
+	height: 10px;
+	background: black;
+	box-shadow:
+    /*ligne haute milieu*/
+        0px 10px 0px,
+        10px 0px 0px,
+        20px 0px 0px,
+        30px 0px 0px,
+        40px 0px 0px,
+		-10px 0px 0px,
+		-20px 0px 0px,
+        -30px 0px 0px,
+        -40px 0px 0px,
+    /*ligne milieu milieu*/
+        0px -10px 0px,        
+        10px -10px 0px,
+        20px -10px 0px,
+        30px -10px 0px,
+        40px -10px 0px,
+		-10px -10px 0px,
+		-20px -10px 0px,
+        -30px -10px 0px,
+        -40px -10px 0px,
+    /*ligne bas milieu*/
+        0px -20px 0px,
+        30px 10px 0px,
+        40px 10px 0px,
+        30px -20px 0px,
+        40px -20px 0px,
+        -30px 10px 0px,
+        -40px 10px 0px,
+        -30px -20px 0px,
+        -40px -20px 0px,
+    /*barres H*/
+        30px 20px 0px,
+        40px 20px 0px,
+        30px -30px 0px,
+        40px -30px 0px,
+        -30px 20px 0px,
+        -40px 20px 0px,
+        -30px -30px 0px,
+        -40px -30px 0px,
+        30px 30px 0px,
+        40px 30px 0px,
+        30px -40px 0px,
+        40px -40px 0px,
+        -30px 30px 0px,
+        -40px 30px 0px,
+        -30px -40px 0px,
+        -40px -40px 0px,
+        30px 40px 0px,
+        40px 40px 0px,
+        30px -50px 0px,
+        40px -50px 0px,
+        -30px 40px 0px,
+        -40px 40px 0px,
+        -30px -50px 0px,
+        -40px -50px 0px,
+        -30px 50px 0px,
+        -40px 50px 0px,
+        30px 50px 0px,
+        40px 50px 0px,
+        20px 50px 0px,
+        -20px 50px 0px,
+        20px -50px 0px,
+        -20px -50px 0px,
+        50px 60px 0px,
+        -50px 60px 0px,
+        50px -60px 0px,
+        -50px -60px 0px;
+}
